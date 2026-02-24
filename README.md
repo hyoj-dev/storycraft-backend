@@ -59,8 +59,10 @@ StoryCraft는 아이들이 AI가 생성한 영어 동화를
 - Whisper 기반 STT 연동 (키워드 입력 단계 활용)
 
 ## ☁ 인프라 구성
-- AWS RDS (PostgreSQL) 구축
-- 환경 변수 분리
+- AWS RDS(PostgreSQL) 구축 및 데이터베이스 설계
+- AWS EC2 인스턴스 배포 및 서버 환경 구성
+- 애플리케이션 실행 환경 세팅 및 DB 연동
+- Docker 기반 배포 구조는 팀원과 협업하여 구성
 
 ---
 
@@ -122,7 +124,7 @@ StoryCraft는 아이들이 AI가 생성한 영어 동화를
 - 모바일 앱: React Native(Expo) + TypeScript
 - 통신: axios 기반 HTTPS API 호출
 - 외부 AI 서비스
-    - ChatGPT: 동화 생성/문장 생성 등 LLM 활용
+    - OpenAI(GPT): 동화 생성/문장 생성 등 LLM 활용
     - Amazon Polly: TTS(음성 합성) 사용
     - DALL·E: 동화 삽화 이미지 생성
 
@@ -191,3 +193,4 @@ StoryCraft는 아이들이 AI가 생성한 영어 동화를
 ```bash
 ./gradlew clean build
 java -jar build/libs/storycraft-backend.jar
+```
