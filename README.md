@@ -32,7 +32,7 @@ StoryCraft는 아이들이 AI가 생성한 영어 동화를
 
 
 ## 📚 프로젝트 자료
-- 설계서: [25년*SW개발\_제작설계서*공모전.pptx](docs/25년_SW개발_제작설계서_공모전.pptx)
+- 설계서: [25년 SW 개발 제작설계서 공모전.pptx](docs/25년_SW개발_제작설계서_공모전.pptx)
 - 수행계획서: [2025년 ICT 한이음 드림업 프로젝트 수행계획서\_StoryCraft.pdf](<docs/2025년 ICT 한이음 드림업 프로젝트 수행계획서_StoryCraft.pdf>)
 - 결과보고서: [2025년 한이음 드림업 프로젝트 결과보고서\_StoryCraft.pdf](<docs/2025년 한이음 드림업 프로젝트 결과보고서_StoryCraft.pdf>)
 
