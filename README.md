@@ -6,12 +6,10 @@
 > ※ 본 저장소는 팀 협업 프로젝트의 포트폴리오 공개용 Fork입니다.  
 > ※ 본 문서는 백엔드 담당자로서의 기여 및 기술 경험 중심으로 정리되었습니다.
 
----
 
 ## 🎬 시연 영상
 - 데모 영상: [StoryCraft 시연 영상](https://www.youtube.com/watch?v=xxvvHqhwsYw) 🎥
 
----
 
 ## 👥 팀 구성
 
@@ -23,9 +21,8 @@
 | 멘티 | 김성준 | 프론트엔드 개발 | 한국방송통신대학교 |
 | 멘티 | 류성민 | 프론트엔드 개발 | 수원대학교 |
 
----
 
-# 🎯 프로젝트 개요
+## 🎯 프로젝트 개요
 
 StoryCraft는 아이들이 AI가 생성한 영어 동화를  
 읽고(Reading) · 듣고(Listening) · 풀며(Quiz) 학습하도록 설계된 모바일 학습 서비스입니다.
@@ -33,14 +30,14 @@ StoryCraft는 아이들이 AI가 생성한 영어 동화를
 백엔드는 동화 생성, 삽화 생성, 퀴즈, 음성(TTS/STT), 통계 등  
 서비스 핵심 로직과 AI 연동을 담당합니다.
 
----
-# 📚 프로젝트 자료
+
+## 📚 프로젝트 자료
 - 설계서: [25년*SW개발\_제작설계서*공모전.pptx](docs/25년_SW개발_제작설계서_공모전.pptx)
 - 수행계획서: [2025년 ICT 한이음 드림업 프로젝트 수행계획서\_StoryCraft.pdf](<docs/2025년 ICT 한이음 드림업 프로젝트 수행계획서_StoryCraft.pdf>)
 - 결과보고서: [2025년 한이음 드림업 프로젝트 결과보고서\_StoryCraft.pdf](<docs/2025년 한이음 드림업 프로젝트 결과보고서_StoryCraft.pdf>)
 
----
-# 🔗️ 프론트엔드 저장소
+
+## 🔗️ 프론트엔드 저장소
 
 - Frontend Repository: https://github.com/StoryCraft-BackEnd/storycraft-frontend
 
@@ -155,7 +152,6 @@ StoryCraft는 아이들이 AI가 생성한 영어 동화를
 >관련 커밋:
 `fix: Story 생성 시 ChildProfile 역직렬화 오류 해결`
 
----
 
 ## 2️⃣ ApplicationContext 초기화 실패 - JPA Repository 메서드명 오류
 
